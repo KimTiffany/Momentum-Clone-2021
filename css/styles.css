@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap");
+
+@import "background.css";
+@import "header.css";
+@import "greeting.css";
+@import "quote.css";
+@import "todo.css";
+
+.hidden {
+  display: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+
+  font-family: "Source Code Pro", monospace;
+}

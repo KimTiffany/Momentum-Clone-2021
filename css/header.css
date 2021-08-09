@@ -1,0 +1,24 @@
+#clock {
+  font-size: 50px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+#weather :first-child {
+  display: flex;
+  align-items: flex-end;
+}
+#weather {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: 300;
+  font-size: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+}

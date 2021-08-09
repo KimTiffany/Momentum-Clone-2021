@@ -1,0 +1,57 @@
+#todo-form {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px;
+}
+#todo-form input {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  font-family: "Source Code Pro", monospace;
+  width: 50%;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#todo-form input::placeholder {
+  color: white;
+
+  text-align: center;
+  padding: 10px;
+}
+#todo-form input:hover {
+  font-size: 35px;
+  transition: font-size 0.25s ease-in-out;
+}
+
+#todo-list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+}
+#todo-list:hover {
+  font-size: 25px;
+  transition: font-size 0.25s ease-in-out;
+}
+
+#todo-list button {
+  background-color: transparent;
+  color: red;
+  border-color: transparent;
+  font-size: large;
+}
+#todo-list button:hover {
+  cursor: pointer;
+}
+.todo {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-self: flex-end;
+  bottom: 0;
+}

@@ -1,0 +1,27 @@
+#quote {
+  display: flex;
+  bottom: 0%;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+#quote span {
+  color: white;
+  padding: 10px;
+  width: 50%;
+}
+
+#quote :first-child {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 200;
+}
+#quote :last-child {
+  font: 400;
+  font-size: 14px;
+}
